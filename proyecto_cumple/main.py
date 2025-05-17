@@ -87,10 +87,10 @@ def main():
             else:
                 for contacto, dias in gestor.obtener_proximos_cumpleaños():
                     st.markdown(f"""
-                    **{contacto.nombre}**
-                    🗓️ {contacto.fecha_nacimiento.strftime('%d/%m')}
-                    📧 {contacto.correo}
-                    ⏳ **{dias}** días restantes
+                    **{contacto.nombre}**  
+                    🗓️ {contacto.fecha_nacimiento.strftime('%d/%m')}  
+                    📧 {contacto.correo}  
+                    ⏳ **{dias}** días restantes  
                     """)
 
         # Columna 2: Calendario
