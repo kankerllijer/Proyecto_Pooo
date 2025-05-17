@@ -1,0 +1,23 @@
+# Archivos sensibles de configuración
+smtp_config.csv
+mensajes.csv
+contactos.csv  # Si usas AlmacenamientoCSV
+
+# Logs y datos de depuración
+app.log
+logs.txt
+
+# Entornos virtuales y paquetes Python
+venv/
+.env
+*.pyc
+__pycache__/
+
+# Directorios temporales/específicos de entornos
+/content/
+.idea/
+.vscode/
+
+# Archivos generados por el sistema
+.DS_Store
+*.tmp
